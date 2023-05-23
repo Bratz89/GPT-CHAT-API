@@ -1,0 +1,22 @@
+{
+  "name": "open-ai-gpt3",
+  "version": "1.0.0",
+  "description": "backend for chat ai",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
+  },
+  "author": "daniel bratz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dompurify": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsdom": "^21.1.0",
+    "openai": "^3.2.1",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.8.2"
+  }
+}
