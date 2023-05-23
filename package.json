@@ -1,7 +1,7 @@
 {
-  "name": "open-ai-gpt3",
+  "name": "gpt-chat-api",
   "version": "1.0.0",
-  "description": "backend for chat ai",
+  "description": "backend for GPT-CHAT",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
